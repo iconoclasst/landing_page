@@ -17,8 +17,8 @@
 
 .section {
     min-height: 100vh;
-}
-
-.menu-space {
-    height: 70px;
+  }
+  
+.menu-spacing {
+    height: 65px;
 }
