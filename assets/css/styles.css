@@ -6,7 +6,7 @@
     gap: var(--gap);
     height: 100vh;
   }
-  
+
 .intro-text-content, .intro-img {
   display: flex;
   flex-flow: column wrap;
@@ -36,16 +36,19 @@
   height: 100vh;
 }
 
-.grid-one-content h2 {
+
+/* .grid-one-content h2 {
   margin-bottom: 1rem;
-}
+} */
 
 .grid-main-heading {
   margin-bottom: 1rem;
+  margin-left: 5rem;
 }
 
 .grid-description {
   padding-bottom: 5rem;
+  padding-left: 5rem;
 }
 
 .grid {
@@ -53,12 +56,14 @@
   grid-template-columns: repeat(3, 1fr);
   gap: var(--gap);
   counter-reset: grid-counter;
+  margin: 35px;
+  
 }
 
 .grid h3 {
   font-size: 3rem;
   position: relative;
-  padding-left: 5rem;
+  padding-left: 3rem;
   padding-bottom: 2rem;
 }
 
